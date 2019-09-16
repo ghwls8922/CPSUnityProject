@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: atlas_0111_0115_Aura
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: bceff594ef21410448c25b0ae3212feb, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0.36621094
+    height: 0.24414062
+  - serializedVersion: 2
+    x: 0.3671875
+    y: 0
+    width: 0.36621094
+    height: 0.24414062
+  - serializedVersion: 2
+    x: 0
+    y: 0.2446289
+    width: 0.36621094
+    height: 0.24414062
+  - serializedVersion: 2
+    x: 0.3671875
+    y: 0.2446289
+    width: 0.36621094
+    height: 0.24414062
+  - serializedVersion: 2
+    x: 0
+    y: 0.4892578
+    width: 0.36621094
+    height: 0.24414062
+  textureGUIDs:
+  - 4037dcf6d155e1d489384881c951559b
+  - 4f59a61c129dc6d4b91eb4e472efcc8d
+  - 77715f7f92288134e94684ad04af5a47
+  - 9631576f25577104487f225a8cfd4171
+  - bab94a0473a3b0c4f8c1ed44505ca46a
+  textureSizes:
+  - {x: 375, y: 500}
+  - {x: 375, y: 500}
+  - {x: 375, y: 500}
+  - {x: 375, y: 500}
+  - {x: 375, y: 500}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  textureNames:
+  - 0114_Aura
+  - 0115_Aura
+  - 0113_Aura
+  - 0111_Aura
+  - 0112_Aura
+  texturePaths:
+  - Assets/0001_0135/textures/0001_0135/0111_0115/0114_Aura.png
+  - Assets/0001_0135/textures/0001_0135/0111_0115/0115_Aura.png
+  - Assets/0001_0135/textures/0001_0135/0111_0115/0113_Aura.png
+  - Assets/0001_0135/textures/0001_0135/0111_0115/0111_Aura.png
+  - Assets/0001_0135/textures/0001_0135/0111_0115/0112_Aura.png
+  lastBuildID: 20141015150712768
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

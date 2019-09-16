@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: atlas_0126_0130_Core3
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: ea495713e4697fd4e9febbdaf2cea348, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0.27197266
+    height: 0.47460938
+  - serializedVersion: 2
+    x: 0
+    y: 0.47558594
+    width: 0.27197266
+    height: 0.47460938
+  - serializedVersion: 2
+    x: 0.27246094
+    y: 0
+    width: 0.27197266
+    height: 0.47460938
+  - serializedVersion: 2
+    x: 0.27246094
+    y: 0.47558594
+    width: 0.27197266
+    height: 0.47460938
+  - serializedVersion: 2
+    x: 0.5449219
+    y: 0
+    width: 0.27197266
+    height: 0.47460938
+  textureGUIDs:
+  - a91126a758a13d943bac471361818c9f
+  - becc122829e69dc4b9e0716eaac073e2
+  - e184640f2c782724cb9802870113b23c
+  - f336c1209eec2dc4aad26ec4aefc16a0
+  - f71e3c97b6729184bba0bd54bb01680b
+  textureSizes:
+  - {x: 557, y: 486}
+  - {x: 557, y: 486}
+  - {x: 557, y: 486}
+  - {x: 557, y: 486}
+  - {x: 557, y: 486}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  textureNames:
+  - 0130_Core3
+  - 0126_Core3
+  - 0128_Core3
+  - 0127_Core3
+  - 0129_Core3
+  texturePaths:
+  - Assets/allDungeon/textures/0001_0100/0126_0130/0130/0130_Core3.png
+  - Assets/allDungeon/textures/0001_0100/0126_0130/0126/0126_Core3.png
+  - Assets/allDungeon/textures/0001_0100/0126_0130/0128/0128_Core3.png
+  - Assets/allDungeon/textures/0001_0100/0126_0130/0127/0127_Core3.png
+  - Assets/allDungeon/textures/0001_0100/0126_0130/0129/0129_Core3.png
+  lastBuildID: 20140625115556701
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

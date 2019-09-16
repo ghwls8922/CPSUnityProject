@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: atlas_0091_0095_Core
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 1a79913e2eb27c940849d067c9a09c5e, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0.37695312
+    height: 0.1875
+  - serializedVersion: 2
+    x: 0.37890625
+    y: 0
+    width: 0.37695312
+    height: 0.1875
+  - serializedVersion: 2
+    x: 0
+    y: 0.18847656
+    width: 0.37695312
+    height: 0.1875
+  - serializedVersion: 2
+    x: 0.37890625
+    y: 0.18847656
+    width: 0.37695312
+    height: 0.1875
+  - serializedVersion: 2
+    x: 0
+    y: 0.37695312
+    width: 0.37695312
+    height: 0.1875
+  textureGUIDs:
+  - 11db40ba07b844a4b8c51a4901f96358
+  - 209e2c0a6f81f4043b40f6d46dde0367
+  - 7f7b592af43309149a857ba896b0e054
+  - c398bfecc9528394facf1fe85985254f
+  - ed4eef1f06e534848b238d6d38b32999
+  textureSizes:
+  - {x: 193, y: 192}
+  - {x: 193, y: 192}
+  - {x: 193, y: 192}
+  - {x: 193, y: 192}
+  - {x: 193, y: 192}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  textureNames:
+  - 0094_Core
+  - 0091_Core
+  - 0092_Core
+  - 0093_Core
+  - 0095_Core
+  texturePaths:
+  - Assets/allDungeon/textures/0001_0100/0091_0095/0094_Core.png
+  - Assets/allDungeon/textures/0001_0100/0091_0095/0091_Core.png
+  - Assets/allDungeon/textures/0001_0100/0091_0095/0092_Core.png
+  - Assets/allDungeon/textures/0001_0100/0091_0095/0093_Core.png
+  - Assets/allDungeon/textures/0001_0100/0091_0095/0095_Core.png
+  lastBuildID: 201406251152132
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

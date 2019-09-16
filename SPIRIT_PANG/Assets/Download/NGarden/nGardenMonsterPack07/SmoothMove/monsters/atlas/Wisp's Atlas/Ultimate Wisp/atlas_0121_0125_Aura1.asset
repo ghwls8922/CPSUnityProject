@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: atlas_0121_0125_Aura1
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 76dbd6757170d9a4f89872771bbc48db, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0.3334961
+    height: 0.31298828
+  - serializedVersion: 2
+    x: 0.33398438
+    y: 0
+    width: 0.3334961
+    height: 0.31298828
+  - serializedVersion: 2
+    x: 0
+    y: 0.31347656
+    width: 0.3334961
+    height: 0.31298828
+  - serializedVersion: 2
+    x: 0
+    y: 0.6269531
+    width: 0.3334961
+    height: 0.31298828
+  - serializedVersion: 2
+    x: 0.33398438
+    y: 0.31347656
+    width: 0.3334961
+    height: 0.31298828
+  textureGUIDs:
+  - 22a6ec36dd5cbb7458dee1d83f768397
+  - 492187bb38e05a643b1e62846cd81fb5
+  - 52650b0091707bf4484eee323640872c
+  - 9b9bddb702828bb44800196a392d2f04
+  - 9c5472f24fff59242bd334dc552935c5
+  textureSizes:
+  - {x: 683, y: 641}
+  - {x: 683, y: 641}
+  - {x: 683, y: 641}
+  - {x: 683, y: 641}
+  - {x: 683, y: 641}
+  defaultPivotOffsets:
+  - {x: -0.06273948, y: -0.007552186}
+  - {x: -0.062739484, y: -0.007552186}
+  - {x: -0.06273948, y: -0.007552186}
+  - {x: -0.06273948, y: -0.007552186}
+  - {x: -0.062739484, y: -0.007552186}
+  textureNames:
+  - 0121_Aura1
+  - 0122_Aura1
+  - 0125_Aura1
+  - 0124_Aura1
+  - 0123_Aura1
+  texturePaths:
+  - Assets/0001_0135/textures/0001_0135/0121_0125/0121/0121_Aura1.png
+  - Assets/0001_0135/textures/0001_0135/0121_0125/0122/0122_Aura1.png
+  - Assets/0001_0135/textures/0001_0135/0121_0125/0125/0125_Aura1.png
+  - Assets/0001_0135/textures/0001_0135/0121_0125/0124/0124_Aura1.png
+  - Assets/0001_0135/textures/0001_0135/0121_0125/0123/0123_Aura1.png
+  lastBuildID: 20141015151300670
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

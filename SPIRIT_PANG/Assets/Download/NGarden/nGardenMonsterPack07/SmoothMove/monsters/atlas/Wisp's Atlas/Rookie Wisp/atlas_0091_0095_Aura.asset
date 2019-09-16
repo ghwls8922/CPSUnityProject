@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: atlas_0091_0095_Aura
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 4acfec7a35899a946842454cd466b0d1, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0.1772461
+    height: 0.5830078
+  - serializedVersion: 2
+    x: 0.17871094
+    y: 0
+    width: 0.1772461
+    height: 0.5830078
+  - serializedVersion: 2
+    x: 0.35742188
+    y: 0
+    width: 0.1772461
+    height: 0.5830078
+  - serializedVersion: 2
+    x: 0.5361328
+    y: 0
+    width: 0.1772461
+    height: 0.5830078
+  - serializedVersion: 2
+    x: 0.71484375
+    y: 0
+    width: 0.1772461
+    height: 0.5830078
+  textureGUIDs:
+  - 3caedcb6429cd0c4a8c3f5065008978d
+  - 54485f00cfec7254b9ba2f1ec3eb5bb1
+  - 8729d50ed7b273841b90946854e616d3
+  - ac904dcbfc2e8ff4eadfc33743e45686
+  - eefc99ee55a9128478c8d6e3e5442e60
+  textureSizes:
+  - {x: 363, y: 597}
+  - {x: 363, y: 597}
+  - {x: 363, y: 597}
+  - {x: 363, y: 597}
+  - {x: 363, y: 597}
+  defaultPivotOffsets:
+  - {x: 0.03341231, y: -0.2420993}
+  - {x: 0.03341231, y: -0.24209931}
+  - {x: 0.033412308, y: -0.24209931}
+  - {x: 0.03341231, y: -0.2420993}
+  - {x: 0.03341231, y: -0.24209931}
+  textureNames:
+  - 0094_Aura
+  - 0095_Aura
+  - 0091_Aura
+  - 0093_Aura
+  - 0092_Aura
+  texturePaths:
+  - Assets/0001_0135/textures/0001_0135/0091_0095/0094_Aura.png
+  - Assets/0001_0135/textures/0001_0135/0091_0095/0095_Aura.png
+  - Assets/0001_0135/textures/0001_0135/0091_0095/0091_Aura.png
+  - Assets/0001_0135/textures/0001_0135/0091_0095/0093_Aura.png
+  - Assets/0001_0135/textures/0001_0135/0091_0095/0092_Aura.png
+  lastBuildID: 2015050812164694
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 512
+  padding: 3
+  forceSquare: 0

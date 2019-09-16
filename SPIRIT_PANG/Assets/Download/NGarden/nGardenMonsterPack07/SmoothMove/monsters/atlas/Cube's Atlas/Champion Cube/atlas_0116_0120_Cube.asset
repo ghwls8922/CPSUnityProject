@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: atlas_0116_0120_Cube
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 10e15fdcf8d55464d9b0df1e7ad6e8e3, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0.296875
+    height: 0.3227539
+  - serializedVersion: 2
+    x: 0
+    y: 0.3232422
+    width: 0.296875
+    height: 0.3227539
+  - serializedVersion: 2
+    x: 0
+    y: 0.6464844
+    width: 0.296875
+    height: 0.3227539
+  - serializedVersion: 2
+    x: 0.29736328
+    y: 0
+    width: 0.296875
+    height: 0.3227539
+  - serializedVersion: 2
+    x: 0.59472656
+    y: 0
+    width: 0.296875
+    height: 0.3227539
+  textureGUIDs:
+  - 2fee47b8665aa5e45a7b151ce2839b1c
+  - 5e332eae59c02804685bcbb23e2fb2a7
+  - 5f86f10738f82644b97b353228407f1b
+  - a87bc244ba3e23e4a80487c80a21ad33
+  - b155fa85747c84b4e9e69620b7d621d3
+  textureSizes:
+  - {x: 608, y: 661}
+  - {x: 608, y: 661}
+  - {x: 608, y: 661}
+  - {x: 608, y: 661}
+  - {x: 608, y: 661}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  textureNames:
+  - 0117_Cube
+  - 0119_Cube
+  - 0116_Cube
+  - 0120_Cube
+  - 0118_Cube
+  texturePaths:
+  - Assets/allDungeon/textures/0001_0100/0116_0120/0117_Cube.png
+  - Assets/allDungeon/textures/0001_0100/0116_0120/0119_Cube.png
+  - Assets/allDungeon/textures/0001_0100/0116_0120/0116_Cube.png
+  - Assets/allDungeon/textures/0001_0100/0116_0120/0120_Cube.png
+  - Assets/allDungeon/textures/0001_0100/0116_0120/0118_Cube.png
+  lastBuildID: 20140625120044361
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0

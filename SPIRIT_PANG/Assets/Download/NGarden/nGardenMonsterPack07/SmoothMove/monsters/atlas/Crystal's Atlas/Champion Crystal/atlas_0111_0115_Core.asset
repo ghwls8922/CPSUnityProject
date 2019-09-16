@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 529336600, guid: 289bab7cc27a12745b5df9b71d7b06c4, type: 3}
+  m_Name: atlas_0111_0115_Core
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: f8d41f023b5b94c4e885933feeae8208, type: 2}
+  uvs:
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0.3515625
+    height: 0.31347656
+  - serializedVersion: 2
+    x: 0.35205078
+    y: 0
+    width: 0.3515625
+    height: 0.31347656
+  - serializedVersion: 2
+    x: 0
+    y: 0.31396484
+    width: 0.3515625
+    height: 0.31347656
+  - serializedVersion: 2
+    x: 0
+    y: 0.6279297
+    width: 0.3515625
+    height: 0.31347656
+  - serializedVersion: 2
+    x: 0.35205078
+    y: 0.31396484
+    width: 0.3515625
+    height: 0.31347656
+  textureGUIDs:
+  - 414ab139b3830c1429b7eb123f928ea4
+  - 7b19c752714304f4182b0d828254dce7
+  - a62dfef64332f554fbd4dc66550a78df
+  - e436c6c3059d1f147a1dce528229aed9
+  - f7b8ac04d6586af4ab05565e093c1638
+  textureSizes:
+  - {x: 720, y: 642}
+  - {x: 720, y: 642}
+  - {x: 720, y: 642}
+  - {x: 720, y: 642}
+  - {x: 720, y: 642}
+  defaultPivotOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  textureNames:
+  - 0113_Core
+  - 0114_Core
+  - 0112_Core
+  - 0115_Core
+  - 0111_Core
+  texturePaths:
+  - Assets/0001_0135/textures/0001_0135/0111_0115/0113_Core.png
+  - Assets/0001_0135/textures/0001_0135/0111_0115/0114_Core.png
+  - Assets/0001_0135/textures/0001_0135/0111_0115/0112_Core.png
+  - Assets/0001_0135/textures/0001_0135/0111_0115/0115_Core.png
+  - Assets/0001_0135/textures/0001_0135/0111_0115/0111_Core.png
+  lastBuildID: 20141015151116919
+  needsRebuilt: 0
+  dataVersion: 4
+  maxAtlasSize: 1024
+  padding: 1
+  forceSquare: 0
