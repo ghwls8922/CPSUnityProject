@@ -11,8 +11,10 @@ public class PlayerControl : MonoBehaviour
     float v; //위, 아래
 
     public GameObject fire;
+    public GameObject skillShot;
     public Transform fireSpawn;
     public float fireRate;
+    public float skillRate;
 
     private float nextFire;
     void Start()
@@ -26,6 +28,12 @@ public class PlayerControl : MonoBehaviour
         {
             nextFire = Time.time + fireRate;
             GameObject clone = Instantiate(fire, fireSpawn.position, fireSpawn.rotation);
+        }
+
+        else if (Input.GetButton("Fire2") && Time.time > nextFire)
+        {
+            nextFire = Time.time + skillRate;
+            GameObject clone = Instantiate(skillShot, fireSpawn.position, fireSpawn.rotation);
         }
 
         h = Input.GetAxis("Horizontal");
