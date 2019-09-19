@@ -62,11 +62,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Download\Assets_NGarden\nGardenMonsterPack06\SmoothMove\common_source\script\TestAnimation.cs" />
-    <Compile Include="Assets\Download\NGarden\nGardenMonsterPack07\SmoothMove\common_source\script\PlayEvent.cs" />
+    <Compile Include="Assets\Downloaded_Assets\Assets_Monster\nGardenMonsterPack07\SmoothMove\common_source\script\PlayEvent.cs" />
+    <Compile Include="Assets\Downloaded_Assets\Assets_Player\nGardenMonsterPack06\SmoothMove\common_source\script\TestAnimation.cs" />
+    <Compile Include="Assets\Downloaded_Assets\Assets_UI\Fonts\Script\scriptTexttest.cs" />
     <Compile Include="Assets\Scripts\MoveBullet.cs" />
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\ScrollTexture.cs" />
+    <None Include="Assets\Downloaded_Assets\Assets_UI\Fonts\Documentation\JazzCreateBubble_VersionHistory_1.1.txt" />
+    <None Include="Assets\Downloaded_Assets\Assets_UI\Fonts\Documentation\JazzCreateAltKeys_BubbleFont.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/ehfdl/문서/GitHub/CPSUnityProject/SPIRIT_PANG/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -278,7 +281,7 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="SmoothMoves_Runtime">
-      <HintPath>C:/Users/ehfdl/문서/GitHub/CPSUnityProject/SPIRIT_PANG/Assets/Download/Assets_NGarden/nGardenMonsterPack06/SmoothMove/common_source/SmoothMoves_Runtime.dll</HintPath>
+      <HintPath>C:/Users/ehfdl/문서/GitHub/CPSUnityProject/SPIRIT_PANG/Assets/Downloaded_Assets/Assets_Player/nGardenMonsterPack06/SmoothMove/common_source/SmoothMoves_Runtime.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.2f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
