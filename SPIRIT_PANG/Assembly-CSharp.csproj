@@ -65,9 +65,12 @@
     <Compile Include="Assets\Downloaded_Assets\Assets_Monster\nGardenMonsterPack07\SmoothMove\common_source\script\PlayEvent.cs" />
     <Compile Include="Assets\Downloaded_Assets\Assets_Player\nGardenMonsterPack06\SmoothMove\common_source\script\TestAnimation.cs" />
     <Compile Include="Assets\Downloaded_Assets\Assets_UI\Fonts\Script\scriptTexttest.cs" />
+    <Compile Include="Assets\Scripts\ManaSliderBar.cs" />
+    <Compile Include="Assets\Scripts\MoneyManager.cs" />
     <Compile Include="Assets\Scripts\MoveBullet.cs" />
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\ScrollTexture.cs" />
+    <Compile Include="Assets\Scripts\ShiftScenes.cs" />
     <None Include="Assets\Downloaded_Assets\Assets_UI\Fonts\Documentation\JazzCreateBubble_VersionHistory_1.1.txt" />
     <None Include="Assets\Downloaded_Assets\Assets_UI\Fonts\Documentation\JazzCreateAltKeys_BubbleFont.txt" />
     <Reference Include="Unity.Timeline.Editor">

@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
 {
+    [SerializeField] private Slider manaPoint_Slider;
     private Rigidbody2D rigidbody;
     public float speed = 300.0f;
 
@@ -13,8 +15,8 @@ public class PlayerControl : MonoBehaviour
     public GameObject fire;
     public GameObject skillShot;
     public Transform fireSpawn;
+
     public float fireRate;
-    public float skillRate;
 
     private float nextFire;
     void Start()
@@ -24,30 +26,36 @@ public class PlayerControl : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(manaPoint_Slider.value.ToString());
         if (Input.GetButton("Fire1") && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
             GameObject clone = Instantiate(fire, fireSpawn.position, fireSpawn.rotation);
         }
 
-        else if (Input.GetButton("Fire2") && Time.time > nextFire)
+        if (Input.GetButton("Fire2") && Time.time > nextFire)
         {
-            nextFire = Time.time + skillRate;
-            GameObject clone = Instantiate(skillShot, fireSpawn.position, fireSpawn.rotation);
+            if (manaPoint_Slider.value >= 100.0f)
+            {
+                nextFire = Time.time + fireRate;
+                GameObject clone = Instantiate(skillShot, fireSpawn.position, fireSpawn.rotation);
+                manaPoint_Slider.value -= 100.0f;
+            }
         }
 
         h = Input.GetAxis("Horizontal");
         v = Input.GetAxis("Vertical");
-        
+
         //이동
         Vector2 direction = new Vector2(h, v);
         rigidbody.velocity = direction * speed * Time.deltaTime;
 
-        //화면 밖으로 못나가게
-        Vector3 viewPos = Camera.main.WorldToViewportPoint(transform.position); //캐릭터의 월드 좌표를 뷰포트 좌표계로 변환해준다.
-        viewPos.x = Mathf.Clamp01(viewPos.x); //x값을 0이상, 1이하로 제한한다.
-        viewPos.y = Mathf.Clamp01(viewPos.y); //y값을 0이상, 1이하로 제한한다.
-        Vector3 worldPos = Camera.main.ViewportToWorldPoint(viewPos); //다시 월드 좌표로 변환한다.
-        transform.position = worldPos; //좌표를 적용한다.
+        //플레이어 이동제한
+        Vector3 pos = Camera.main.WorldToViewportPoint(transform.position);
+        if (pos.x < 0f) pos.x = 0f;
+        if (pos.x > 1f) pos.x = 1f;
+        if (pos.y < -0.2f) pos.y = -0.2f;
+        if (pos.y > 0.8f) pos.y = 0.8f;
+        transform.position = Camera.main.ViewportToWorldPoint(pos);
     }
 }
