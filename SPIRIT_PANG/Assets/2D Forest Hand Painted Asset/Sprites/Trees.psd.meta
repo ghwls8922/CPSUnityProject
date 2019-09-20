@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 393dc16422a21fb478427894c3bbb5e8
+timeCreated: 1493726321
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Trees_0
+    21300002: Trees_1
+    21300004: Trees_2
+    21300006: Trees_3
+    21300008: Trees_4
+    21300010: Trees_5
+    21300012: Trees_6
+    21300014: Trees_7
+    21300016: Trees_8
+    21300018: Trees_9
+    21300020: Trees_10
+    21300022: Trees_11
+    21300024: Trees_12
+    21300026: Trees_13
+    21300028: Trees_14
+    21300030: Trees_15
+    21300032: Trees_16
+    21300034: Trees_17
+    21300036: Trees_18
+    21300038: Trees_19
+    21300040: Trees_20
+    21300042: Trees_21
+    21300044: Trees_22
+    21300046: Trees_23
+    21300048: Trees_24
+    21300050: Trees_25
+    21300052: Trees_26
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trees_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 3633
+        width: 296
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_1
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 3600
+        width: 354
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_2
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 3544
+        width: 408
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_3
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 3489
+        width: 480
+        height: 519
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_4
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 2619
+        width: 1401
+        height: 1333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_5
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2728
+        width: 677
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_6
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 2733
+        width: 608
+        height: 597
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_7
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 2720
+        width: 562
+        height: 659
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1804
+        width: 483
+        height: 633
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_9
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1794
+        width: 220
+        height: 653
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_10
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1920
+        width: 272
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_11
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1934
+        width: 250
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_12
+      rect:
+        serializedVersion: 2
+        x: 2831
+        y: 991
+        width: 628
+        height: 1282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_13
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 1000
+        width: 576
+        height: 1448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_14
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1104
+        width: 223
+        height: 544
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1106
+        width: 198
+        height: 616
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_16
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1141
+        width: 279
+        height: 419
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_17
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1167
+        width: 257
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_18
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 976
+        width: 404
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_19
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 976
+        width: 467
+        height: 923
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_20
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 138
+        width: 258
+        height: 861
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_21
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 136
+        width: 375
+        height: 887
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_22
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 87
+        width: 1058
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_24
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 136
+        width: 413
+        height: 728
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_25
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 87
+        width: 1128
+        height: 714
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_23
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1924
+        width: 1020
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trees_26
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 2390
+        width: 605
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

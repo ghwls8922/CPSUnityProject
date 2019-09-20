@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/1.Setting_Sound.unity
     guid: f98fd626c62eab943a6b276d25bc650c
   - enabled: 1
-    path: Assets/Scenes/2.Setting_Screen.unity
+    path: Assets/Scenes/2.Credit_Screen.unity
     guid: 432cedfb64c383149a50688740624fe8
   - enabled: 1
     path: Assets/Scenes/2.Setting_Version.unity

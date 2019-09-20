@@ -19,6 +19,7 @@ public class ShiftScenes : MonoBehaviour {
     }
     public void ShiftToSettingScreen()
     {
-        SceneManager.LoadScene("2.Setting_Screen");
+        SceneManager.LoadScene("2.Credit_Screen");
     }
+   
 }
