@@ -279,7 +279,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 220255072}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 855630004}
+        m_MethodName: ShiftToStoreScreen
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &220255072
@@ -430,8 +441,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 9.785004, y: 0.6124878}
+  m_SizeDelta: {x: 90.64, y: -3.675}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &349157667
 MonoBehaviour:
@@ -1057,7 +1068,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1120038908}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 855630004}
+        m_MethodName: ShiftToSelectStage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1120038908
@@ -1184,8 +1206,6 @@ GameObject:
   - component: {fileID: 1283714819}
   - component: {fileID: 1283714821}
   - component: {fileID: 1283714820}
-  - component: {fileID: 1283714823}
-  - component: {fileID: 1283714822}
   m_Layer: 5
   m_Name: Panel_Money
   m_TagString: Untagged
@@ -1253,32 +1273,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283714818}
   m_CullTransparentMesh: 0
---- !u!114 &1283714822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1283714818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9b75ffba462291479498becaafe6c1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMoney: {fileID: 13673944}
---- !u!114 &1283714823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1283714818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9b75ffba462291479498becaafe6c1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMoney: {fileID: 0}
 --- !u!1 &1424717839
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,7 +1552,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 222.97034
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1582,7 +1576,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2141323110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 455, y: 222, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
